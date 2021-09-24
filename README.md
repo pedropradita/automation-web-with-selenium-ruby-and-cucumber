@@ -1,11 +1,15 @@
-how to run in windows
+# My sample code for automation web with selenium ruby and cucumber
 
+## How to run in windows
+```
 if you already use ruby run this steps
 1. open command prompt, move to this folder
 2. run "cucumber"
 3*. run "cucumber -f html -o report.html" 
+```
 
-if you dont use ruby run this steps
+## If you dont use ruby run this steps
+```
 1. install ruby
 2. add Environment Variable for Ruby, with this steps : right click My Computer > click Properties > click Advance system settings > click Environment Variables > click PATH > click Edit > input ex : C:\Ruby24-x64\bin
 3. open command prompt
@@ -16,5 +20,5 @@ if you dont use ruby run this steps
 8. move command prompt to this folder
 9. run "cucumber"
 10*. run "cucumber -f html -o report.html" 
-
+```
 *for generate html report
